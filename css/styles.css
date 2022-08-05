@@ -1,0 +1,216 @@
+#title {
+  background-color: #FF4C68;
+}
+
+#features {
+  background-color: #FEFBF6;
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+}
+
+#testimonials {
+  background-color: #EF8172;
+  text-align: center;
+  color: white;
+}
+
+#testimonials h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 5rem;
+  font-size: 3rem;
+}
+
+#carouselIndicators {
+  padding: 7% 15% 3% 15%;
+}
+
+#press {
+  background-color: #EF8172;
+  text-align: center;
+}
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+  font-family: "Montserrat"
+}
+
+#pricing h2 {
+  font-weight: 600;
+}
+
+#pricing h3 {
+  color: white;
+}
+#cta{
+background-color: #FF4C68;
+text-align: center;
+padding:6rem 20rem 6rem;
+}
+#cta h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  font-size: 3rem;
+}
+
+#footer{
+  text-align: center;
+  margin: 5rem 0rem 4rem;
+}
+
+#footer #footer-p1{
+  font-family: "Montserrat";
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+
+#footer #footer-p1:hover{
+  color:blue;
+}
+
+#footer .footer-p2{
+  font-family: "Montserrat";
+  font-size: 1rem;
+  color: #A2B5BB;
+}
+
+#footer a{
+padding: 0rem 2rem;
+}
+
+#footer-mail-icon{
+  position: relative;
+  bottom: 7px;
+}
+/* HEADINGS */
+
+.title-h1 {
+  color: white;
+  margin-top: 100px;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 3% 15% 5%;
+}
+
+.row {
+  margin: auto 0 auto 0;
+}
+
+/* ALL Types of Buttons */
+.btn {
+  margin-top: 50px;
+  font-family: "Montserrat"
+}
+
+.cta-btn{
+  margin: 3rem 1rem 1rem;
+  font-family: "Montserrat";
+}
+
+/* NavigationBar */
+.nav-item {
+  padding: 0rem 2.5rem;
+}
+
+.nav-link {
+  font-family: "Montserrat";
+  font-weight: 300;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 3rem;
+}
+
+/* IMAGES */
+.phone-img {
+  transform: rotate(30deg);
+  width: 20rem;
+  height: 40rem;
+  margin-top: 5rem;
+  position: absolute;
+}
+
+@media (max-width:1275px) {
+  .phone-img {
+    position: static;
+    transform: rotate(0);
+
+  }
+  #title {
+    text-align: center;
+  }
+}
+
+
+/* ICONS */
+.fa-brands {
+  font-size: 2rem;
+}
+
+.fa-icon {
+  font-size: 5.5rem;
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.fa-icon:hover {
+  color: #FF4C68;
+}
+
+/* Features */
+.feature-col {
+  text-align: center;
+  margin-top: 0rem;
+  line-height: 2rem;
+  padding: 5%;
+}
+
+.feature-row p {
+  font-family: "Montserrat";
+  color: #8F8F8F;
+}
+
+.feature-row h3 {
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+/* Testimonials */
+.testimonial-img {
+  width: 15%;
+  border-radius: 100%;
+  margin-top: 3.5%;
+  text-align: center;
+}
+
+/* PRESS Section */
+.press-img {
+  width: 12.5%;
+  margin: 5% 2.5%;
+}
+
+/* Pricing section */
+.pricing-box {
+  margin-top: 5%;
+}
+
+.card-header {
+  background-color: #256D85;
+}
+
+.card-body {
+  background-color: #E8F9FD;
+}
